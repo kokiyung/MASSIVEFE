@@ -1,0 +1,94 @@
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px 50px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.navbar .logo{
+    display: flex;
+    font-weight: bolder;
+    font-family: poppins;
+    font-size: 36px;
+}
+.navbar .logo .firstlogo{
+    color: #603813 ;
+}
+.navbar .logo .secondlogo{
+    color: #FCB040;
+}
+.navbar .sidebutton{
+    display: flex;
+    font-size: 20px;
+}
+.navbar .sidebutton .firstbutton{
+    background-color: #FFF;
+    margin: 0px 10px;
+    padding: 5px 10px; 
+}
+.navbar .sidebutton .firstbutton a{
+    text-decoration: none;
+    color: black;
+}
+.navbar .sidebutton .firstbutton a.active{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FCB040;
+}
+.navbar .centernav{
+    font-size: 20px;
+    font-family: poppins;
+}
+
+.navbar .sidebutton .secondbutton{
+    background-color: #FCB040;
+    border: 1px solid #FCB040;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.navbar .sidebutton .secondbutton a{
+    text-decoration: none;
+    color: #FFF;
+}
+/* Card */
+.card img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px 20px 0 0;
+}
+.card .cafedes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.card .cafedes .firstdes{
+    text-align: left;
+}
+.card .cafedes .firstdes .cafename{
+    font-size: 24px;
+}
+.card .cafedes .seconddes{
+    background-color: #FCB040;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px ;
+    font-weight: bold;
+}
+.card .cafedes .seconddes a{
+    text-decoration: none;
+    color: white;
+ }
+ /* Footer */
+footer {
+    text-align: center;
+    background-color: #FCB040;
+    bottom: 0;
+    padding: 5px 0;
+    color: #F2F2F2;
+}

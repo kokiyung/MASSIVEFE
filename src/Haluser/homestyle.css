@@ -1,0 +1,284 @@
+/* FILTER BAR */
+.filterbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.filterbar .serchbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.filterbar .serchbar .serchbarcontent{
+    display: flex;
+    width: 90%;
+    border: 1px solid #AAAAAA;
+    padding: 5px 5px;
+    border-radius: 20px;
+    align-items: center;
+}
+.filterbar .serchbar input[type="text"]{
+    border: none;
+    width: 100%;
+    height: 24px;
+    outline: none;
+}
+
+.filterbar .menufilter {
+    display: flex;
+    margin: 10px 5px;
+    width: 90%;
+    justify-content: space-between;
+}
+.filterbar .menufilter .menufilteritem {
+    background-color: #FFF;
+    width: 10%;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid #FCB040;
+
+}
+.filterbar .menufilter .menufilteritem a{
+    text-decoration: none;
+    color: #603813;
+}
+/* FIRST CONTENT */
+.firstcontent {
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(190, 129, 73, 0.10);
+    
+}
+.firstcontent .leftcontent{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+.firstcontent .leftcontent .leftone,
+.firstcontent .leftcontent .lefttwo{
+    display: flex;
+}
+.firstcontent .leftcontent .leftone .firsttext,
+.firstcontent .leftcontent .lefttwo .firsttext{
+    font-family: poppins;
+    font-size: 50px;
+    color: #603813;
+    font-weight: bolder;
+}
+.firstcontent .leftcontent .leftone .secondtext,
+.firstcontent .leftcontent .lefttwo .secondtext,
+.firstcontent .leftcontent .leftthree .secondtext{
+    font-family: Lobster Two;
+    font-size: 50px;
+    color: #FCB040;
+    font-style: italic;
+}
+.firstcontent .leftcontent .buttonfirstcontent{
+    background-color: #FCB040;
+    border: 1px solid #FCB040;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+}
+.firstcontent .leftcontent .buttonfirstcontent a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: poppins;
+}
+p{
+    font-family: poppins;
+}
+/* SECOND SECTION */
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    align-items: center;
+    background-color: #fff;
+}
+.secondsection .leftlogo{
+    font-family: poppins;
+    display: flex;
+    font-size: 110px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+.secondsection .rightsecondsection{
+    font-size: 24px;
+    text-align: justify;
+    width: 50%;
+    padding-right: 15px;
+}
+.secondsection .rightsecondsection .seccek{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.secondsection .rightsecondsection .buttonsection{
+    background-color: #FCB040;
+    border: 1px solid #FCB040;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+.secondsection .rightsecondsection .buttonsection a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: poppins;
+}
+
+/* Section Cafe */
+.cafe{
+    text-align: center;
+    background-color: #fff;
+    margin-top: 50px;
+    
+}
+.cafe h1{
+    font-family: poppins;
+    line-height: 0;
+}
+.cafe .cafelist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.cafe .cafelist .card{
+    background-color: #262626;;
+    border-radius: 20px;
+    color: white;
+    font-family: poppins;
+    margin: 0px 10px;
+}
+.cafe .cafelist .card img{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+.cafe .cafelist .card .cafedes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+.cafe .cafelist .card .cafedes .firstdes{
+    text-align: left;
+}
+.cafe .cafelist .card .cafedes .firstdes .cafename{
+    font-size: 24px;
+}
+.cafe .cafelist .card .cafedes .seconddes{
+    background-color: #FCB040;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px ;
+    font-weight: bold;
+}
+.cafe .cafelist .card .cafedes .seconddes a{
+   text-decoration: none;
+   color: white;
+}
+
+/* MENU SECTION */
+.menusection{
+    text-align: center;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.menusection h1{
+    font-family: poppins;
+    line-height: 0;
+}
+.menusection .cafelist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menusection .cafelist .card{
+    background-color: #262626;;
+    border-radius: 20px;
+    color: white;
+    font-family: poppins;
+    margin: 20px 10px;
+}
+.menusection .cafelist .card img{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+}
+.menusection .cafelist .card .cafedes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.menusection .cafelist .card .cafedes .firstdes{
+    text-align: left;
+}
+.menusection .cafelist .card .cafedes .firstdes .cafename{
+    font-size: 24px;
+}
+.menusection .cafelist .card .cafedes .seconddes{
+    background-color: #FCB040;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px ;
+    font-weight: bold;
+}
+.menusection .cafelist .card .cafedes .seconddes a{
+   text-decoration: none;
+   color: white;
+}
+
+/* Bottom sec */
+.bottomsec{
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bottomsec .logo{
+    display: flex;
+    justify-content: center;
+    
+}
+.bottomsec .logo p{
+    font-family: poppins;
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 0;
+}
+.bottomsec .sosmed a{
+    text-decoration: none;
+    color: #FCB040;
+    margin: 0 20px;
+
+}
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #FCB040;
+    bottom: 0;
+    padding: 5px 0;
+    color: #F2F2F2;
+}

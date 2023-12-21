@@ -1,0 +1,31 @@
+.sidebar {
+  width: 20%;
+  margin: 0px 20px;
+  background-color: #ffff;
+  height: 100vh;
+}
+.sidebar .logo {
+  display: flex;
+  font-family: poppins;
+  font-size: 36px;
+  margin: 15px 15px;
+}
+.sidebar .logo div:nth-child(1) {
+  color: #603813;
+}
+.sidebar .logo div:nth-child(2) {
+  color: #fcb040;
+}
+.sidebar .menu {
+  font-family: poppins;
+  padding-left: 25px;
+  margin: 15px 0px;
+  font-size: 20px;
+}
+.sidebar .menu a{
+  text-decoration: none;
+  color: #A7A7A7;
+}
+.sidebar .menu a.active{
+  color: #FCB040;
+}

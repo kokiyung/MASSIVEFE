@@ -1,0 +1,24 @@
+.sukses div:nth-child(3){
+    border-radius: 5px;
+    border: 1px solid #603813;
+    background-color: #FFF;
+    margin: 20px 0px;
+    padding: 3px 0px;
+}
+.sukses div:nth-child(3) a{
+    text-decoration: none;
+    color: #FCB040;
+    font-weight: bold;
+    font-size: 24px;
+}
+.sukses div:nth-child(4){
+    border-radius: 5px;
+    background-color: #FCB040;
+    padding: 3px 0px;
+}
+.sukses div:nth-child(4) a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+}
